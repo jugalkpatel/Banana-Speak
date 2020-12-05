@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root {
+    --primary-color:#F59E0B;
+    --secondary-color: #FFFFFF;
+    --ternary-color: #D1D5DB;
+    --button-color: #3B3B3B;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* containers */
+
+.centered-container {
+    max-width: 600px;
+    padding: 1rem;
+    margin: auto;
+}
+
+.container {
+    border-left:1px solid var(--primary-color);
+    border-right:1px solid var(--primary-color);
+    padding: 5rem 1rem;
+    background-image: url('./icons/minion_bk.png');
+}
+
+/* navigation-bar */
+
+.navigation-bar {
+    color: var(--secondary-color);
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
+
+.set-space {
+    margin: 2rem 0;
+}
+
+/* input-box */
+
+.input-div{
+    padding: 0;
+    text-align: center;
+    background-color: var(--ternary-color);
+    /* margin: 2rem 0; */
+}
+
+#user-input {
+    padding: 0.5rem;    
+    display: block;
+    min-height: 100px;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    border: 0px;
+    background-color: var(--ternary-color);
+}
+
+/* translate-button */
+#btn-translate {
+    display: block;
+    margin: auto;
+    background-color: var(--button-color);
+    border: 0;
+    color: var(--secondary-color);
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* output-box */
+
+#user-output {
+    /* border: 1px solid black; */
+    padding: 0.5rem;
+    min-height: 100px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
+/* footer */
+
+.footer {
+    padding: 5rem 1rem;
+    color: var(--secondary-color);
+    background-color: var(--button-color);
+}
